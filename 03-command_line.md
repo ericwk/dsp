@@ -20,6 +20,7 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
+>>
 * pwd = show current directory path
 * mkdir<directory name> = create a directory named "directory name"
 * rmdir<directory name> = delete a directory named "directory name"
@@ -43,6 +44,7 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
+>>
 * ls = list directory contents
 * ls -a = list directory contents including files with names that begin with "." (hidden files)
 * ls -l = list directory contents using long format
@@ -57,7 +59,7 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-
+>>
 * ls -d = list directory contents listing directories only
 * ls -m = list directory contents streaming comma separated names across the output page horizontally (rather than in vertical columns) 
 * ls -u = list directory contents sorted by time of last access (most recent first)
@@ -73,7 +75,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-xargs executes commands one at a time that are taken from standard input
+>> xargs executes commands one at a time that are taken from standard input
 For example:
 find <directory name><file name> | xargs rm
  finds file named "file name" in or below directory "directory name" and removes it
