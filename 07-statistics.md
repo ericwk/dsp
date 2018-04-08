@@ -86,14 +86,16 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> We know that Elvis was born a twin so this eliminates the possibility available to the general population of not being a twin at all (the most likely outcome for the general population by far, 1 - (1/125 + 1/300).  So the question is, was Elvis a fraternal twin or an identical twin?  it is more likely (300/125 or 2.4 times more likely) that he was a fraternal twin than an identical twin.  So, the probability that he was an identical twin is 1/(2.4 + 1) or .294 (29.4%).
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Frequentist statistics assume no prior knowledge about the situation being evaluated and probability can only be estimated based on a specific sample taken related to the situation.  The estimated probability is the frequncy of occurrance of the parameter of interest (k) divided by the number of trails in the sample (n), or k/n.  The larger the number of trials, the more accurate the estimate of probability.  Using the frequentist approach, the probability of rain in a pr]articualr location would be estimated by (number of rainy days in a sample of days)/(total number of days in a smaple of days).
+
+Bayseian statistics assume that an estimate of probability for a particular outcome in a situation can be improved by applying some prior knowledge of some dependency related to the situation to calcualting the estimate from a sample.  Using the estimate of the probability of a rainy day again, if it is known that it is more likely that a day will be rainy if the day before was rainy, this knowledge can be applied to estimating the probability that a specific day will be rainy.  This would yield a higher estimate of the probability for tommorow to be rainy if today was rainy than using the frequentist estimate.
 
 ---
 
